@@ -6,13 +6,13 @@
                 <div class="footer__content-left">
 
                     <ul class="footer__left-list">
-                        <li><a href="" class="footer__list-items">О компании</a></li>
-                        <li><a href="" class="footer__list-items">Партнеры</a></li>
-                        <li><a href="" class="footer__list-items">Новости</a></li>
-                        <li><a href="" class="footer__list-items">Документация / Регламенты</a></li>
-                        <li><a href="" class="footer__list-items">Вход</a></li>
-                        <li><a href="" class="footer__list-items">Регистрация</a></li>
-                        <li><a href="" class="footer__list-items">Проверка транспортного средства</a></li>
+                        <li><a href="#abc" class="footer__list-items">Партнеры</a></li>
+                        <li><a href="#abc" class="footer__list-items">Новости</a></li>
+                        <li><a href="#abc" class="footer__list-items">О компании</a></li>
+                        <li><a href="#abc" class="footer__list-items">Документация / Регламенты</a></li>
+                        <li><a href="#abc" class="footer__list-items">Вход</a></li>
+                        <li><a href="#abc" class="footer__list-items">Регистрация</a></li>
+                        <li><a href="#abc" class="footer__list-items">Проверка транспортного средства</a></li>
                     </ul>
 
                     <div class="footer__left-payment">
@@ -67,102 +67,3 @@ export default {
     },
 }
 </script>
-
-<style>
-.footer {
-    background: #F2F8FF;
-    border-radius: 50px 50px 0 0;
-    margin-top: -50px;
-}
-
-.footer__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 55px 0;
-}
-
-.footer__left-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.footer__list-items {
-    display: block;
-    color: #163C66;
-    font-family: "GothamProMedium";
-    transition: 0.5s;
-}
-
-
-.footer__list-items:hover {
-    transform: translateX(12px);
-}
-
-.footer__left-payment {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 20px 0 30px;
-}
-
-.footer__content-left p {
-    color: #163C66;
-    font-family: "GothamProMedium";
-}
-
-.footer__content-right {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.footer__right-top {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.footer__right-top h3 {
-    color: #163C66;
-    font-size: 32px;
-    line-height: 38.4px;
-    font-family: "GothamProMedium";
-}
-
-.footer__top-box {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.footer__top-box p {
-    color: #163C66;
-    font-size: 12px;
-    left: 14.4px;
-    font-family: "GothamProMedium";
-}
-
-.footer__right-social {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.footer__right-social img{
-    cursor: pointer;
-}
-
-.footer__right-social p {
-    color: #163C66;
-    font-family: "GothamProMedium";
-}
-
-.footer__right-p {
-    width: 580px;
-    color: #163C66;
-    line-height: 19px;
-
-}
-</style>

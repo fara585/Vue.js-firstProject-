@@ -1,5 +1,7 @@
 @import url(font.css);
 @import "./navbar.scss";
+@import "./header.scss";
+@import "./footer.scss";
 
 * {
     padding: 0;
@@ -14,4 +16,8 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
 }
+
+@import "./main.scss";
+@import "./media.scss";
